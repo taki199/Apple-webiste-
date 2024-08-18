@@ -28,14 +28,14 @@ const Hero = () => {
         gsap.to("#hero", {
             opacity:1,
             ease:'power1.inOut',
-            duration:2.5
+            delay:2.5
            
         },
         gsap.to('#cta',{
             opacity:1,
             ease:'power1.inOut',
-            duration:1.5,
-            y:10,
+            delay:2.5,
+            y:-50,
             
         })
 
