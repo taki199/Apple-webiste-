@@ -1,4 +1,4 @@
-import Features from "./components/features.jsx"
+import Features from "./components/Features.jsx"
 import Hero from "./components/Hero"
 import Highlights from "./components/Highlights"
 import Model from "./components/Model.jsx"
