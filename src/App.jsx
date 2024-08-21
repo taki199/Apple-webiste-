@@ -1,6 +1,6 @@
 import Hero from "./components/Hero"
 import Highlights from "./components/Highlights"
-import Model from "./components/Model.jSX"
+import Model from "./components/Model.jsx"
 import Navbar from "./components/Navbar"
 
 const App =() => {
