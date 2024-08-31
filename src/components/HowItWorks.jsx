@@ -1,5 +1,5 @@
 import { useGSAP } from "@gsap/react"
-import { chipImg } from "../utils"
+import { chipImg, frameImg } from "../utils"
 import gsap from "gsap"
 
 
@@ -33,6 +33,15 @@ const HowItWorks = () => {
             <p className="hiw-subtitle">
                 It's here.The biggest redesign in the history of Apple Gpus.
             </p>
+
+        </div>
+        <div className="mt-10 md:mt-20 mb-14">
+            <div className="relative h-full flex-center">
+                 <div className="overflow-hidden">
+                    <img className="bg-transparent relative z-10" src={frameImg} alt="frame" />
+
+                 </div>
+            </div>
 
         </div>
       </div>
